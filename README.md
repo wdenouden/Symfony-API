@@ -14,6 +14,15 @@ Installation
 
 ```bash
 $ composer install
+ 
+// Create database
+$ php bin/console d:d:c 
+ 
+// Database migration
+$ php bin/console d:m:m
+ 
+// Load fixtures (some test users)
+$ php bin/console d:l:f
 ```
 
 Usage
